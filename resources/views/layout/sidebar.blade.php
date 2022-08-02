@@ -67,7 +67,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/dashboard/test-detail') }}" class="nav-link active">
+                            <a href="{{ url('/dashboard/test-form') }}" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Test Details</p>
                             </a>
@@ -86,7 +86,12 @@
                                 <p>Grades</p>
                             </a>
                         </li>
-                    </ul>
+                        <li class="nav-item">
+                            <a href="{{ url('/dashboard/test-data') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p> test-data</p>
+                            </a>
+                        </li </ul>
                 </li>
 
                 <li class="nav-item">

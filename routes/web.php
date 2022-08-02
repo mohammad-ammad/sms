@@ -44,6 +44,9 @@ Route::get('/dashboard/promotion', function () {
     return view('layout.pages.student_management.promotion');
 });
 
-Route::get('/dashboard/test-detail', function () {
-    return view('layout.pages.student_management.test_details');
+Route::get('/dashboard/test-form', function () {
+    return view('layout.pages.student_management.test_form');
+});
+Route::get('/dashboard/test-data', function () {
+    return view('layout.pages.student_management.test_data');
 });

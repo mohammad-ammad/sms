@@ -11,7 +11,7 @@
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">Registration Form</li>
+                            <li class="breadcrumb-item active">Test Data</li>
                         </ol>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
             <div class="container-fluid">
                 <div class="card card-default">
                     <div class="card-header">
-                        <h3 class="card-title">Student Registration</h3>
+                        <h3 class="card-title">Test Data</h3>
 
                         <div class="card-tools">
                             <button type="button" class="btn btn-tool" data-card-widget="collapse">
