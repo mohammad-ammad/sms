@@ -13,33 +13,40 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\Admin\AuthController::class,'index']);
-Route::post('/login', [App\Http\Controllers\Admin\AuthController::class,'login'])->name('login.index');
+Route::get('/', [App\Http\Controllers\Admin\AuthController::class, 'index']);
+Route::post('/login', [App\Http\Controllers\Admin\AuthController::class, 'login'])->name('login.index');
 
-Route::get('/dashboard', function(){
+Route::get('/dashboard', function () {
     return view('layout.pages.dashboard');
 });
 
-Route::get('/dashboard/class', function(){
+Route::get('/dashboard/class', function () {
     return view('layout.pages.general_settings.class');
 });
 
-Route::get('/dashboard/section', function(){
+Route::get('/dashboard/section', function () {
     return view('layout.pages.general_settings.section');
 });
 
-Route::get('/dashboard/grade', function(){
+Route::get('/dashboard/grade', function () {
     return view('layout.pages.general_settings.grade');
 });
 
-Route::get('/dashboard/students', function(){
+Route::get('/dashboard/students', function () {
     return view('layout.pages.student_management.student');
 });
 
-Route::get('/dashboard/registration', function(){
+Route::get('/dashboard/registration', function () {
     return view('layout.pages.student_management.registration');
 });
 
-Route::get('/dashboard/promotion', function(){
+Route::get('/dashboard/promotion', function () {
     return view('layout.pages.student_management.promotion');
+});
+
+Route::get('/dashboard/test-form', function () {
+    return view('layout.pages.student_management.test_form');
+});
+Route::get('/dashboard/test-data', function () {
+    return view('layout.pages.student_management.test_data');
 });
